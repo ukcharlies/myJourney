@@ -44,8 +44,8 @@ This section contains code samples focused on solving frequent frontend challeng
 Projects in this folder reflect practical applications of frontend technologies and focus on real-world problem-solving. Each project is documented to outline the purpose, technical stack, and key learnings. Featured projects:
 
 - **Portfolio Website**: A fully responsive personal portfolio site developed with HTML, CSS, and vanilla JavaScript, focusing on clean design and accessibility.
-- **underconstuction**: A dynamic weather forecasting app using asynchronous JavaScript and external API calls, built to practice API integration and user-friendly UI design.
-- **underconstuction**: A task management tool employing React for component-based architecture, offering features like task creation, deletion, and status tracking.
+- **underconstuction**: Working on something...STAYTUNED!!
+- **underconstuction**: Working on something...STAYTUNED!!
 
 ## Resources
 
