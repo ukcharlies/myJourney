@@ -1,0 +1,21 @@
+p {
+  color: rgb(4, 0, 255);
+  font-size: 20px;
+  font-family: Arial;
+}
+#Eg {
+  color: rgb(255, 247, 0);
+  font-size: 30px;
+  font-family: Arial;
+}
+.Big {
+  color: rgb(255, 0, 0);
+  font-size: 40px;
+  font-family: Arial;
+}
+[href] {
+  color: rgb(0, 255, 0);
+  font-size: 50px;
+  font-family: Arial;
+}
+

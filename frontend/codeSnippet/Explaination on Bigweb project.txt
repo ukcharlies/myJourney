@@ -1,0 +1,131 @@
+### Notes for "BigWeb" Code Snippets ✨
+
+Welcome to the **BigWeb** project walkthrough! If you're just starting out with HTML or web development, consider this your backstage pass to understanding the *what* and *why* behind your code. For this, you will need to look through the Big Web project located in the [*Project repo*](../projects/BigWeb). Let's dive into your pages with some pizzazz, humor, and learning sprinkled along the way!
+
+
+---
+
+#### **1. Index Page: Welcome to the Big Web**  
+
+```html
+<body style="display: flex; justify-content: center;">
+    <main style="width: 400px; text-align: center; border-radius: 15px; border-color: burlywood; margin: 0px; padding: 0px; background-color: rgb(65, 173, 157);">
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="myhobbies.html">Hobbies</a> |
+            <a href="contact.html">Contact</a> |
+            <a href="entertainment.html">Entertainment</a>
+        </nav>
+        <h1>This is my assignment on the Big web</h1>
+    </main>
+</body>
+```
+
+**What’s Happening Here?**  
+- **Flexbox**:  
+  The `display: flex` and `justify-content: center` styles are like the stagehands moving everything into place and saying, *"Center stage, please!"*. Flexbox is your go-to when you want things nicely aligned without needing an aspirin after debugging.
+
+- **Navigation Bar**:  
+  The `<nav>` tag is like the menu at a diner: it tells visitors where they can go. Your links here are clean and simple—well done! Pro tip: Consider highlighting the current page with some styling so users don’t get lost.  
+
+- **Inline CSS**:  
+  The `style` attributes sprinkled here are functional but bulky. It’s like carrying all your groceries without a bag—possible, but a bit awkward. Enter **Tailwind CSS**, which replaces `style="..."` with cool utility classes like `flex justify-center`. Clean, reusable, and... dare I say, *snazzy*.
+
+---
+
+#### **2. Contact Page: Talk to Me!**
+
+```html
+<form action="">
+    <input type="text" name="" id="fname" placeholder="Input your first name" style="border-radius: 15px; border-color: brown; border-style: dashed;">
+    <button type="submit" style="background-color: brown; color: white; border-radius: 15px;">Submit</button>
+</form>
+```
+
+**What’s Happening Here?**  
+- **Form Fields**:  
+  These `<input>` tags are your friendly portals to user information. The `placeholder` attribute is a polite *"Hey, here's what we need from you!"*. Bonus points for rounded corners—they scream *"I’m modern and approachable!"*.  
+
+- **Button Styling**:  
+  Your submit button looks great with `border-radius`. But if you switch to Tailwind CSS, you’d just write something like `rounded-lg bg-brown text-white`. No semicolons, no stress. 🚀
+
+---
+
+#### **3. Entertainment Page: Fun Zone 🕺**  
+
+```html
+<video width="320" height="240" controls>
+    <source src="path_to_video_file.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+<audio controls>
+    <source src="path_to_audio_file.mp3" type="audio/mpeg">
+    Your browser does not support the audio tag.
+</audio>
+```
+
+**What’s Happening Here?**  
+- **Multimedia Tags**:  
+  Your `<video>` and `<audio>` tags are like the entertainment crew of your site. They play music and show videos, adding life to your content. Don’t forget to replace `"path_to_video_file.mp4"` with an actual file!
+
+- **Fallback Content**:  
+  The *"Your browser does not support the..."* message is the equivalent of a polite bouncer. If the browser doesn’t support the party (media file), users at least know why.
+
+---
+
+#### **4. Hobbies Page: Who’s Got the Time? You Do!**  
+
+```html
+<section>
+    <h1>My Weekly Schedule</h1>
+    <table border="3">
+        <tr>
+            <th>Day</th>
+            <th>Activity</th>
+            <th>Time</th>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>Work</td>
+            <td>9:00 AM - 5:00 PM</td>
+        </tr>
+    </table>
+</section>
+```
+
+**What’s Happening Here?**  
+- **Tables**:  
+  Tables aren’t just for Thanksgiving dinner—they’re for structured data, too! Your `<th>` tags act as headers, and `<td>` holds the content. Simple, readable, and effective.
+
+- **Semantic HTML**:  
+  By wrapping your table inside a `<section>`, you’re letting browsers and search engines know *"Hey, this is an important chunk of related content!"*. It’s like labeling your leftovers—super helpful.
+
+---
+
+### **Inline CSS vs. Tailwind CSS: The Showdown**
+
+- **Inline CSS**:  
+  - **Pros**:  
+    - Quick and dirty. Perfect for small projects.
+    - No external setup needed.
+  - **Cons**:  
+    - Repetition, repetition, repetition (did I say repetition?).  
+    - Harder to maintain as the project grows.
+
+- **Tailwind CSS**:  
+  - **Pros**:  
+    - A utility-first approach means less repetition.  
+    - Classes are reusable across your project.  
+    - Scales beautifully with larger projects.  
+  - **Cons**:  
+    - Requires setup (but worth it!).
+
+*TL;DR*: Inline CSS is great for quick drafts, but Tailwind CSS makes you look like a pro with cleaner, scalable code.
+
+---
+
+### **Wrapping It Up**
+
+This **BigWeb** project isn’t just a code snippet—it’s a gateway to web development. From semantic tags to multimedia integration, you’re building skills that can take you far. Next step? Start experimenting with Tailwind CSS, add some JavaScript for interactivity, and you’ll be unstoppable!  
+
+Oh, and if someone asks, "What’s this project about?" tell them, *"It’s the foundation of a web empire, my friend!"* 😉
