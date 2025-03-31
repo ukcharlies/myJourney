@@ -32,7 +32,7 @@ p {
 }
 ```
 
-Each rule here targets elements in specific ways. Let me explain how CSS picks who gets styled—it’s a little like matchmaking!  
+This is what  CSS basically looks like, Each rule here targets elements in specific ways. Let me explain how CSS picks who gets styled—it’s a little like matchmaking!  
 
 ---
 
